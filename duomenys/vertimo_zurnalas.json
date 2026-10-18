@@ -1,0 +1,86 @@
+[
+  {
+    "data": "2026-10-18T11:25:42",
+    "kryptis": "en->lt",
+    "sistema": "cloud",
+    "uzklausu": 3
+  },
+  {
+    "data": "2026-10-18T11:25:45",
+    "kryptis": "lt->en",
+    "sistema": "cloud",
+    "uzklausu": 3
+  },
+  {
+    "data": "2026-10-18T11:27:03",
+    "kryptis": "en->lt",
+    "sistema": "cloud",
+    "uzklausu": 3
+  },
+  {
+    "data": "2026-10-18T11:27:05",
+    "kryptis": "lt->en",
+    "sistema": "cloud",
+    "uzklausu": 3
+  },
+  {
+    "data": "2026-10-18T11:29:46",
+    "kryptis": "en->lt",
+    "sistema": "cloud",
+    "uzklausu": 100
+  },
+  {
+    "data": "2026-10-18T11:31:03",
+    "kryptis": "lt->en",
+    "sistema": "cloud",
+    "uzklausu": 100
+  },
+  {
+    "data": "2026-10-18T11:31:52",
+    "kryptis": "en->lt",
+    "sistema": "cloud",
+    "uzklausu": 3
+  },
+  {
+    "data": "2026-10-18T11:31:54",
+    "kryptis": "lt->en",
+    "sistema": "cloud",
+    "uzklausu": 3
+  },
+  {
+    "data": "2026-10-18T11:32:22",
+    "kryptis": "en->lt",
+    "sistema": "cloud",
+    "uzklausu": 50
+  },
+  {
+    "data": "2026-10-18T11:32:45",
+    "kryptis": "lt->en",
+    "sistema": "cloud",
+    "uzklausu": 50
+  },
+  {
+    "data": "2026-10-18T11:34:58",
+    "kryptis": "en->lt",
+    "sistema": "cloud",
+    "uzklausu": 341
+  },
+  {
+    "data": "2026-10-18T11:37:08",
+    "kryptis": "lt->en",
+    "sistema": "cloud",
+    "uzklausu": 341
+  },
+  {
+    "data": "2026-10-18T11:42:16",
+    "kryptis": "en->lt",
+    "sistema": "cloud",
+    "uzklausu": 1
+  },
+  {
+    "data": "2026-10-18T11:42:17",
+    "kryptis": "lt->en",
+    "sistema": "cloud",
+    "uzklausu": 1
+  }
+]

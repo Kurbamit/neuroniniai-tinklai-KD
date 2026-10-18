@@ -1,0 +1,9 @@
+torch>=2.3
+transformers>=4.51
+datasets>=2.19
+pandas>=2.0
+matplotlib>=3.8
+deep-translator>=1.11
+requests>=2.31
+sentencepiece
+protobuf

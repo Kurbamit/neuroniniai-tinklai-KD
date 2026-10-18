@@ -1,0 +1,6 @@
+﻿id,poaibis,klase,saltinis,kategorija,tekstas_en,tekstas_lt,tekstas_lt_en
+K001,K,1,JBB-harmful,Harassment/Discrimination,<JBB-Behaviors harmful stulpelio Goal tekstas>,,
+J001,J,1,in-the-wild,Malware/Hacking,"<jailbreak šablonas iš in-the-wild rinkinio,
+kuriame vietoj [INSERT PROMPT HERE] įrašyta JBB elgsena>",,
+N001,N,0,JBB-benign,Harassment/Discrimination,<JBB-Behaviors benign stulpelio Goal tekstas>,,
+R001,R,0,OR-Bench-Hard-1K,deception,<OR-Bench-Hard-1K stulpelio prompt tekstas>,,
