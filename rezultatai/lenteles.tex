@@ -1,0 +1,105 @@
+\begin{table}[H]
+  \caption{Klasifikatorių metrikos pagal scenarijus}\label{lent:metrikos}
+  \lentelesTekstas
+  \small
+  \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|C{1.2cm}|C{2.1cm}|C{2.1cm}|C{1.4cm}|C{1.4cm}|C{1.3cm}|}
+    \hline
+    \textbf{Klasifikatorius} & \textbf{Scen.} & \textbf{Tikslumas} & \textbf{Atkūrimas} & \textbf{F1} & \textbf{FPR} & \textbf{ms} \\
+    \hline
+    PromptGuard2-86M & S1 & 0,821 & 0,644 & 0,722 & 0,140 & 98,0 \\
+    \hline
+    PromptGuard2-86M & S2 & 0,983 & 0,452 & 0,619 & 0,008 & 134,5 \\
+    \hline
+    PromptGuard2-86M & S3 & 0,839 & 0,564 & 0,675 & 0,108 & 132,4 \\
+    \hline
+    PromptGuard2-22M & S1 & 0,956 & 0,348 & 0,510 & 0,016 & 45,2 \\
+    \hline
+    PromptGuard2-22M & S2 & 1,000 & 0,164 & 0,282 & 0,000 & 84,3 \\
+    \hline
+    PromptGuard2-22M & S3 & 0,985 & 0,264 & 0,416 & 0,004 & 50,8 \\
+    \hline
+    LlamaGuard3-1B & S1 & 0,712 & 0,692 & 0,702 & 0,280 & 564,2 \\
+    \hline
+    LlamaGuard3-1B & S2 & 0,711 & 0,552 & 0,622 & 0,224 & 761,1 \\
+    \hline
+    LlamaGuard3-1B & S3 & 0,719 & 0,636 & 0,675 & 0,248 & 535,9 \\
+    \hline
+    PolyGuard-Smol & S1 & 0,597 & 0,900 & 0,718 & 0,608 & 541,6 \\
+    \hline
+    PolyGuard-Smol & S2 & 0,622 & 0,672 & 0,646 & 0,408 & 612,5 \\
+    \hline
+    PolyGuard-Smol & S3 & 0,609 & 0,896 & 0,725 & 0,576 & 541,7 \\
+    \hline
+    Qwen3Guard-0.6B & S1 & 0,577 & 0,932 & 0,713 & 0,684 & 552,0 \\
+    \hline
+    Qwen3Guard-0.6B & S2 & 0,601 & 0,908 & 0,723 & 0,604 & 663,9 \\
+    \hline
+    Qwen3Guard-0.6B & S3 & 0,591 & 0,924 & 0,721 & 0,640 & 540,5 \\
+    \hline
+  \end{tabularx}
+  \saltinis{Šaltinis: sudaryta autoriaus}
+\end{table}
+
+\begin{table}[H]
+  \caption{Metrikos pagal poaibius}\label{lent:poaibiai}
+  \lentelesTekstas
+  \small
+  \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|C{1.2cm}|C{2.2cm}|C{2.2cm}|C{2.2cm}|C{2.2cm}|}
+    \hline
+    \textbf{Klasifikatorius} & \textbf{Scen.} & \textbf{Atkūrimas K} & \textbf{Atkūrimas J} & \textbf{FPR N} & \textbf{FPR R} \\
+    \hline
+    PromptGuard2-86M & S1 & 0,300 & 0,873 & 0,040 & 0,207 \\
+    \hline
+    PromptGuard2-86M & S2 & 0,080 & 0,700 & 0,000 & 0,013 \\
+    \hline
+    PromptGuard2-86M & S3 & 0,190 & 0,813 & 0,010 & 0,173 \\
+    \hline
+    PromptGuard2-22M & S1 & 0,170 & 0,467 & 0,030 & 0,007 \\
+    \hline
+    PromptGuard2-22M & S2 & 0,000 & 0,273 & 0,000 & 0,000 \\
+    \hline
+    PromptGuard2-22M & S3 & 0,100 & 0,373 & 0,010 & 0,000 \\
+    \hline
+    LlamaGuard3-1B & S1 & 0,940 & 0,527 & 0,220 & 0,320 \\
+    \hline
+    LlamaGuard3-1B & S2 & 0,630 & 0,500 & 0,310 & 0,167 \\
+    \hline
+    LlamaGuard3-1B & S3 & 0,920 & 0,447 & 0,180 & 0,293 \\
+    \hline
+    PolyGuard-Smol & S1 & 0,990 & 0,840 & 0,640 & 0,587 \\
+    \hline
+    PolyGuard-Smol & S2 & 0,820 & 0,573 & 0,580 & 0,293 \\
+    \hline
+    PolyGuard-Smol & S3 & 0,990 & 0,833 & 0,580 & 0,573 \\
+    \hline
+    Qwen3Guard-0.6B & S1 & 0,990 & 0,893 & 0,600 & 0,740 \\
+    \hline
+    Qwen3Guard-0.6B & S2 & 0,950 & 0,880 & 0,820 & 0,460 \\
+    \hline
+    Qwen3Guard-0.6B & S3 & 0,980 & 0,887 & 0,540 & 0,707 \\
+    \hline
+  \end{tabularx}
+  \saltinis{Šaltinis: sudaryta autoriaus}
+\end{table}
+
+\begin{table}[H]
+  \caption{Kalbos poveikis ir vertimo būdo nauda}\label{lent:skirtumai}
+  \lentelesTekstas
+  \small
+  \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|C{1.4cm}|C{1.4cm}|C{1.4cm}|C{2.3cm}|C{2.3cm}|}
+    \hline
+    \textbf{Klasifikatorius} & \textbf{F1 S1} & \textbf{F1 S2} & \textbf{F1 S3} & \textbf{$\Delta F_1^{\mathrm{kalba}}$} & \textbf{$\Delta F_1^{\mathrm{vertimas}}$} \\
+    \hline
+    PromptGuard2-86M & 0,722 & 0,619 & 0,675 & $-$0,103 & 0,055 \\
+    \hline
+    PromptGuard2-22M & 0,510 & 0,282 & 0,416 & $-$0,228 & 0,135 \\
+    \hline
+    LlamaGuard3-1B & 0,702 & 0,622 & 0,675 & $-$0,080 & 0,054 \\
+    \hline
+    PolyGuard-Smol & 0,718 & 0,646 & 0,725 & $-$0,072 & 0,079 \\
+    \hline
+    Qwen3Guard-0.6B & 0,713 & 0,723 & 0,721 & 0,010 & $-$0,002 \\
+    \hline
+  \end{tabularx}
+  \saltinis{Šaltinis: sudaryta autoriaus}
+\end{table}
